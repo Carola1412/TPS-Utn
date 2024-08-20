@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura HTML</title>
+    <style>
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+        <div>
+        <h2 id="Estructura">1.Estructura Básica del Documento HTML</h2>
+        <p>Este documento HTML tiene una estructura básica que incluye la declaracion de DOCTYPE, etiquetas de metadatos y un titulo</p>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2>2.Encabezados y Propiedades de texto</h2>
+        <div>
+            <h3 style="font-style: italic;">Este es un subtitulo h3 en cursiva</h3>
+            <h4 style="text-decoration: underline;">Este es un subtitulo h4 subrayado</h4>
+            <h5 style="text-decoration: overline;">Este es un subtitulo h5 subrayado por encima</h5>
+            <h6 style="background-color: rgba(159, 101, 214, 0.192);">Este es un subtitulo h6 con un color de fondo</h6>
+            <div>
+                <h2>3.Division y Agrupacion de contenido</h2>
+                <div>
+                    <h3>Seccion 1</h3>
+                    <p>Contenido de la primera seccion agrupada en un div</p>
+                </div>
+                <div>
+                    <h3>Seccion 2</h3>
+                    <p>Contenido de la seguna seccion agrupada en un div</p>
+                </div>
+            </div>
+            <div>
+                <h2>4.Enlaces y listas</h2>
+                <a href="https://www4.frm.utn.edu.ar/" target="_blank">Vistia nuestro sitio web</a>
+                <div>
+                    <p>Enlaces internos: </p>
+                    <ul>
+                        <li><a href="#Estructura">Ir a Estructura</a></li>
+                        <li><a href="#Multimedia">Ir a Multimedia</a></li>
+                        <li><a href="#Formulario">Ir a Formulario</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Lista desordenada: </p>
+                    <ul>
+                        <li> Primer ítem de una lista desordenada</li>
+                        <li> Segundo ítem de una lista desordenada</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Lista ordenada: </p>
+                    <ol>
+                        <li> Primer ítem de la lista ordenada</li>
+                        <li> Segundo ítem de la lista ordenada</li>
+                    </ol>
+                </div>
+            </div>
+        <div>
+            <h2 id="Multimedia">5.Elementos Multimedia</h2>
+            <img 
+            src="https://e7.pngegg.com/pngimages/195/304/png-clipart-visual-studio-code-logo-thumbnail-tech-companies-thumbnail.png"
+            width="100px"
+            height="100px"
+            alt="Es el logo de visual studio code"
+            />
+            <video
+            src="videoplayback.mp4"
+            controls with="200px" height="200px">
+            </video>
+            <audio 
+             src="1.mp3" 
+             controls autoplay>
+            </audio>
+                
+        </div> 
+        <div>
+            <h2>6.Tablas</h2>
+            <table >
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                        <th>Columna 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fila 1, celda 1</td>
+                        <td>Fila 1, celda 2</td>
+                        <td>Fila 1, celda 3</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 2, celda 1</td>
+                        <td>Fila 2, celda 2</td>
+                        <td>Fila 2, celda 3</td> 
+                    </tr>
+                    <tr>
+                        <td>Fila 3, celda 1</td>
+                        <td>Fila 3, celda 2</td>
+                        <td>Fila 3, celda 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2 id="Formulario">7.Formularios</h2>
+            <form>
+                <div>
+                    <label>Nombre</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="email" placeholder="example@example.com">
+                </div>
+                <div>
+                    <label>Mensaje</label>
+                    <textarea></textarea>
+                </div>
+                <button type="submit">Enviar formulario</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>2024 Trabajo Practico de HTML</p>
+        <p>Carolina Martinez, 48876</p>
+    </footer>
+</body>
+</html>
